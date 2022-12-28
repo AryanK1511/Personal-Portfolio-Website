@@ -1,0 +1,56 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Poppins:wght@200;300;400;500;600;800;900&display=swap');
+
+/* ========== HOMEPAGE ========== */
+/* Navbar */
+.navbar {
+    font-family: 'Poppins', sans-serif;
+    background-color: #000323;
+    z-index: 4;
+}
+
+.mx-auto {
+    background-color: #000323;
+    border-radius: 5px;
+}
+
+.navbar-brand {
+    background-color: #000323;
+    font-family: 'Monoton', cursive;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: #FFD17D;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.nav-link {
+    color: #fff;
+    position: relative;
+    padding: 20px 0;
+    margin: 0 20px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: 0.7s;
+}
+
+.nav-link::after {
+    opacity: 0;
+    transition: all 0.7s;
+    content: '';
+    height: 4px;
+    width: 0;
+    background-color: #FFD17D;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+}
+
+.nav-link:hover {
+    color: #e53170;
+}
+
+.nav-link:hover::after {
+    opacity: 1;
+    width: 100%;  
+}
