@@ -1,12 +1,19 @@
 import React from "react";
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigationbar from "../Components/Navbar";
+import TitleBox from "../Components/TitleBox";
 
 function App() {
   return (
     <div>
-      <Navigationbar />
+      <header>
+        <Navigationbar />
+      </header>
+      <main>
+        <section className="homepage">
+          <br /><br /><br /><br /><br />
+          <TitleBox />
+        </section>
+      </main>
     </div>
   );
 }

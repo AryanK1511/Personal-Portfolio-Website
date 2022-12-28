@@ -1,8 +1,17 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Poppins:wght@200;300;400;500;600;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
 
-/* ========== HOMEPAGE ========== */
-/* Navbar */
+/* body {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.9), rgba(4,9,30,0.1)),url(../public/Images/Bg-Image.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+} */
+
+/* ========== Navbar ========== */
 .navbar {
     font-family: 'Poppins', sans-serif;
     background-color: #000323;
@@ -10,7 +19,6 @@
 }
 
 .mx-auto {
-    background-color: #000323;
     border-radius: 5px;
 }
 
@@ -22,6 +30,10 @@
     color: #FFD17D;
     font-size: 2rem;
     font-weight: 700;
+}
+
+.navbar-brand:hover {
+    color: #FFD17D;
 }
 
 .nav-link {
@@ -53,4 +65,31 @@
 .nav-link:hover::after {
     opacity: 1;
     width: 100%;  
+}
+
+/* ========== HOMEPAGE ========== */
+.homepage {
+    background-color: #000323;
+}
+
+.main-heading {
+    font-family: 'Rubik Puddles', cursive;
+    font-weight: 900;
+    font-size: 10rem;
+}
+
+.main-heading span {
+    padding: 10px;
+}
+
+.yellow-font {
+    color: #EEB854;
+}
+
+.purple-font {
+    color: #AB55E9;
+}
+
+.red-font {
+    color: #CB797A;
 }
