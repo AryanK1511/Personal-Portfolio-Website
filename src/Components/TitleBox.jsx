@@ -3,8 +3,37 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
+import { useEffect, useState } from "react";
+
+const titles = [
+    "Software Developer",
+    "Web Developer",
+    "Computer Science Enthusiast"
+];
+
+const useTitle = (titles) => {
+    const [ title, setTitle ] = useState('');
+    useEffect(() => {
+        const nextTitle = titles[0].slice(0, title.length + 1);
+
+        if (nextTitle === title) {
+            return;
+        }
+
+        const timeout = setTimeout(() => {
+            setTitle(titles[0].slice(0, title.length + 1))
+        }, 100)
+
+        return () => clearTimeout(timeout)
+    }, [ titles, title ])
+
+    return title;
+}
 
 const TitleBox = () => {
+
+    const title = useTitle(titles);
+
     return(
         <Container fluid={true} className="heading-container">
             <Row className="text-center">
@@ -29,13 +58,13 @@ const TitleBox = () => {
             <Row className="text-center">
                 <Col>
                     <div className="title-para">
-                        <h2>Software Developer.</h2>
+                        <h2 className="blinking-cursor">{title}</h2>
                     </div>
                 </Col>
             </Row>
             <Row className="text-center">
                 <Col>
-                    <Button variant="primary">Primary</Button>{' '}
+                    <Button variant="primary" className="title-btn">Primary</Button>{' '}
                 </Col>
             </Row>
         </Container>

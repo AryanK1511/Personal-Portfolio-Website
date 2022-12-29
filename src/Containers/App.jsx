@@ -10,7 +10,6 @@ function App() {
       </header>
       <main>
         <section className="homepage">
-          <br /><br /><br /><br /><br />
           <TitleBox />
         </section>
       </main>

@@ -73,6 +73,7 @@
 }
 
 .main-heading {
+    padding-top: 150px;
     font-family: 'Rubik Puddles', cursive;
     font-weight: 900;
     font-size: 10rem;
@@ -92,4 +93,34 @@
 
 .red-font {
     color: #CB797A;
+}
+
+.blinking-cursor::after {
+    content: "|";
+    animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+.title-btn {
+    padding: 15px;
+    width: 200px;
+    border: 4px solid black;
+    border-radius: 8px;
+    background: transparent;
+    transition: 1s;
+    margin-bottom: 4rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ff8906;
+    transition: 1s;
+}
+
+.title-btn:hover {
+    background-color: #ff8906;
+    border-color: #000323;
 }
