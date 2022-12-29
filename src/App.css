@@ -85,14 +85,25 @@
 
 .yellow-font {
     color: #EEB854;
+    text-shadow: 0 0 0.3em #EEB854;
 }
 
 .purple-font {
     color: #AB55E9;
+    text-shadow: 0 0 0.3em #AB55E9;
 }
 
 .red-font {
     color: #CB797A;
+    text-shadow: 0 0 0.3em #CB797A;
+}
+
+.title-para h2 {
+    padding: 20px;
+    font-weight: 600;
+    font-size: 2.8rem;
+    color: #fb8700;
+    text-shadow: 0 0 0.9em #fb8700;
 }
 
 .blinking-cursor::after {
@@ -109,7 +120,7 @@
 .title-btn {
     padding: 15px;
     width: 200px;
-    border: 4px solid black;
+    border: 4px solid #AB55E9;
     border-radius: 8px;
     background: transparent;
     transition: 1s;
@@ -118,9 +129,12 @@
     text-decoration: none;
     color: #ff8906;
     transition: 1s;
+    box-shadow: 0 0 0.9em #AB55E9;
+    margin-top: 20px;
 }
 
 .title-btn:hover {
-    background-color: #ff8906;
-    border-color: #000323;
+    background-color: #AB55E9;
+    border-color: #AB55E9;
+    box-shadow: 0 0 0.9em #AB55E9;
 }

@@ -64,7 +64,7 @@ const TitleBox = () => {
             </Row>
             <Row className="text-center">
                 <Col>
-                    <Button variant="primary" className="title-btn">Primary</Button>{' '}
+                    <Button variant="primary" className="title-btn">Learn More</Button>{' '}
                 </Col>
             </Row>
         </Container>
