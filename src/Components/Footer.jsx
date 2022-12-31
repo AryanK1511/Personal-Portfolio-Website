@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <footer class="footer">
             <h4>Aryan Khurana</h4>
-            <p>sample text<br /> <span>Copyright&copy; 2022</span></p>
+            <p><span>Copyright&copy; 2022</span></p>
 
             <div class="icons">
                 <a href="https://www.linkedin.com/in/aryan-khurana-239684229/" target="_blank"><i class="uil uil-linkedin"></i></a>

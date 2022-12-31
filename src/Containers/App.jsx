@@ -14,9 +14,6 @@ function App() {
         <section className="homepage">
           <TitleBox />
         </section>
-        <section className="about-page">
-          <AboutBox />
-        </section>
       </main>
       <Footer />
     </div>
