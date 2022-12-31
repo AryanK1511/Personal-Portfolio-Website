@@ -1,6 +1,7 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Poppins:wght@200;300;400;500;600;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 /* body {
     min-height: 100vh;
@@ -137,4 +138,58 @@
     background-color: #AB55E9;
     border-color: #AB55E9;
     box-shadow: 0 0 0.9em #AB55E9;
+}
+
+/* ========== ABOUT PAGE ========== */
+img {
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #000f);
+}
+
+.about-page {
+    background-color: #fff;
+}
+
+.about-heading {
+    text-align: center;
+    font-size: 5rem;
+    padding: 90px 0 60px;
+    font-weight: 900;
+    font-family: 'Righteous', cursive;
+}
+
+/* ========= Footer ========== */
+.footer {
+    background: #0F0119;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h4 {
+    color: #FFC18F;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.footer p {
+    color: #ADEDEA;
+    margin-bottom: 20px;
+}
+
+.footer p span {
+    color: #cf11bc;
+    font-weight: 600;
+}
+
+.icons .uil {
+    font-size: 30px;
+    color: #CE205B;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px;
+}
+
+.icons .uil:hover {
+    color: #ADEDEA;
+    transition: 0.6s;
 }
