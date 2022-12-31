@@ -8,7 +8,7 @@ const NavigationBar = () => {
             <Navbar fixed="top" expand="lg">
             <Container fluid={true}>
                 <Navbar.Brand href="/">AK</Navbar.Brand>
-                <Navbar.Toggle style={{backgroundColor: "white"}} aria-controls="basic-navbar-nav" />
+                <Navbar.Toggle className="toggler custom-toggler" aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mx-auto">
                     <Nav.Link href="/">HOME</Nav.Link>

@@ -14,6 +14,16 @@
     border-radius: 5px;
 }
 
+.custom-toggler.toggler {
+    border-color: #FFD17D;
+    border-width: 2px;
+}
+  
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(100, 82, 49, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
 .navbar-brand {
     background-color: #000323;
     font-family: 'Monoton', cursive;
@@ -196,3 +206,32 @@
 
 
 /* ========== Making the Webpage Responsive ========== */
+@media (max-width: 1080px) {
+    .main-heading {
+        font-size: 7rem;
+    }
+
+    .title-para h2 {
+        font-size: 2.4rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .main-heading {
+        font-size: 4.5rem;
+    }
+
+    .title-para h2 {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .main-heading {
+        font-size: 3.25rem;
+    }
+
+    .title-para h2 {
+        font-size: 2rem;
+    }
+}
