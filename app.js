@@ -6,7 +6,7 @@ particlesJS('particles-js',
         "value": 8,
         "density": {
           "enable": true,
-          "value_area": 250
+          "value_area": 950
         }
       },
       "color": {
@@ -16,7 +16,7 @@ particlesJS('particles-js',
         "type": "circle",
         "stroke": {
           "width": 9,
-          "color": "#e53170"
+          "color": "#fff"
         },
         "polygon": {
           "nb_sides": 5
@@ -76,7 +76,7 @@ particlesJS('particles-js',
           "mode": "repulse"
         },
         "onclick": {
-          "enable": false,
+          "enable": true,
           "mode": "push"
         },
         "resize": true

@@ -83,7 +83,8 @@
     padding-top: 80px;
     font-family: 'Rubik Puddles', cursive;
     font-weight: 900;
-    font-size: 10rem;
+    font-size: 9rem;
+    margin-bottom: 35px;
 }
 
 .main-heading span {
@@ -106,14 +107,12 @@
 }
 
 .auto-type {
-    background-color: #000323;
     display: inline;
     padding: 20px;
     font-weight: 600;
     font-size: 2.8rem;
     color: #fb8700;
     text-shadow: 0 0 0.9em #fb8700;
-    margin-bottom: 40px;
     border-radius: 16px;
 }
 
@@ -132,7 +131,7 @@
     transition: 1s;
     z-index: 3;
     box-shadow: 0 0 0.9em #AB55E9;
-    margin-top: 20px;
+    margin-top: 60px;
 }
 
 .title-btn:hover {
@@ -181,4 +180,35 @@
 .icons .uil:hover {
     color: #ADEDEA;
     transition: 0.6s;
+}
+
+/* ========== Making the Webpage Responsive ========== */
+@media (max-width: 1080px) {
+    .main-heading {
+        font-size: 7rem;
+    }
+
+    .auto-type {
+        font-size: 2.4rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .main-heading {
+        font-size: 4.5rem;
+    }
+
+    .auto-type {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .main-heading {
+        font-size: 3.25rem;
+    }
+
+    .auto-type {
+        font-size: 2rem;
+    }
 }
