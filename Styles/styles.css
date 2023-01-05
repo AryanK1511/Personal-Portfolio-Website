@@ -7,6 +7,10 @@
 .navbar {
     background-color: #000323;
     z-index: 4;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
 }
 
 .navbar-brand {
@@ -68,9 +72,10 @@
 #particles-js {
     position: absolute;
     width: 100%;
+    height: 100%;
     z-index: -1;
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
     background-color: #000323;
 }
 
@@ -80,7 +85,7 @@
 
 .main-heading {
     z-index: 4;
-    padding-top: 80px;
+    padding-top: 150px;
     font-family: 'Rubik Puddles', cursive;
     font-weight: 900;
     font-size: 9rem;
@@ -143,6 +148,81 @@
 
 .uil {
     margin: 5px;
+}
+
+/* ========== ABOUT PAGE ========== */
+.about-page {
+    background-color: #fff;
+}
+
+.about-page {
+    margin: auto 0;
+}
+
+.about-heading {
+    text-align: center;
+    font-size: 5rem;
+    padding: 90px 0 60px;
+    font-weight: 900;
+    font-family: 'Righteous', cursive;
+}
+
+.wrapper {
+    box-sizing: content-box;
+    background-color: #fff;
+    height: 70px;
+    padding: 50px 30px;
+    display: flex;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.2);
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.wrapper span {
+    display: block;
+    height: 100px;
+    padding-left: 10px;
+    border: 2px solid orange;
+    color: blue;
+    animation: spin_words 6s infinite;
+}
+
+.skills {
+    overflow: hidden;
+}
+
+@keyframes spin_words {
+    10% {
+        transform: translateY(-112%);
+    }
+
+    25% {
+        transform: translateY(-100%);
+    }
+
+    35% {
+        transform: translateY(-212%);
+    }
+
+    50% {
+        transform: translateY(-200%);
+    }
+
+    60% {
+        transform: translateY(-312%);
+    }
+
+    75% {
+        transform: translateY(-300%);
+    }
+
+    85% {
+        transform: translateY(-412%);
+    }
+
+    100% {
+        transform: translateY(-400%);
+    }
 }
 
 /* ========= Footer ========== */
