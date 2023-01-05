@@ -1,0 +1,44 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Poppins:wght@200;300;400;500;600;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+/* ========== Navbar ========== */
+
+
+/* ========= Footer ========== */
+.footer {
+    background: #000323;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h4 {
+    color: #FFC18F;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.footer p {
+    color: #ADEDEA;
+    margin-bottom: 20px;
+}
+
+.footer p span {
+    color: #cf11bc;
+    font-weight: 600;
+}
+
+.icons .uil {
+    font-size: 30px;
+    color: #CE205B;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px;
+}
+
+.icons .uil:hover {
+    color: #ADEDEA;
+    transition: 0.6s;
+}
