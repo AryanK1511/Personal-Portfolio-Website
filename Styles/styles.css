@@ -4,7 +4,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 /* ========== Navbar ========== */
+.navbar {
+    background-color: #000323;
+}
 
+.navbar-brand {
+    font-family: 'Monoton', cursive;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: #FFD17D;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.navbar-brand:hover {
+    color: #FFD17D;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #FFD17D;
+    border-width: 2px;
+}
+  
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(100, 82, 49, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.nav-link {
+    color: #fff;
+    position: relative;
+    padding: 20px 0;
+    margin: 0 20px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: 0.7s;
+}
+
+.nav-link::after {
+    opacity: 0;
+    transition: all 0.7s;
+    content: '';
+    height: 4px;
+    width: 0;
+    background-color: #FFD17D;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+}
+
+.nav-link:hover {
+    color: #e53170;
+}
+
+.nav-link:hover::after {
+    opacity: 1;
+    width: 100%;  
+    text-decoration: none;
+}
 
 /* ========= Footer ========== */
 .footer {
