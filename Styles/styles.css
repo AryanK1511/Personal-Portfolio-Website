@@ -6,6 +6,7 @@
 /* ========== Navbar ========== */
 .navbar {
     background-color: #000323;
+    z-index: 4;
 }
 
 .navbar-brand {
@@ -64,12 +65,21 @@
 }
 
 /* ========== HOMEPAGE ========== */
-.homepage {
+#particles-js {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: #000323;
-    padding: 30px;
+}
+
+.container-fluid {
+    z-index: 4;
 }
 
 .main-heading {
+    z-index: 4;
     padding-top: 80px;
     font-family: 'Rubik Puddles', cursive;
     font-weight: 900;
@@ -95,13 +105,16 @@
     text-shadow: 0 0 0.3em #CB797A;
 }
 
-.title-para h2 {
+.auto-type {
+    background-color: #000323;
+    display: inline;
     padding: 20px;
     font-weight: 600;
     font-size: 2.8rem;
     color: #fb8700;
     text-shadow: 0 0 0.9em #fb8700;
     margin-bottom: 40px;
+    border-radius: 16px;
 }
 
 .title-btn {
@@ -117,6 +130,7 @@
     text-decoration: none;
     color: #ff8906;
     transition: 1s;
+    z-index: 3;
     box-shadow: 0 0 0.9em #AB55E9;
     margin-top: 20px;
 }
