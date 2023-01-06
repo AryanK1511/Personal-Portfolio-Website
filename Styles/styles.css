@@ -163,10 +163,16 @@
   padding: 150px 0 40px;
   font-weight: 900;
   font-family: "Righteous", cursive;
+  color: #ffd17d;
+  text-shadow: 0 0 0.2em #ffd17d;
 }
 
 .about-description {
     padding: 0 0 40px;
+    color: #e53170;
+    text-shadow: 0 0 0.8em #e53170;
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 
 #A {
@@ -174,6 +180,7 @@
 }
 
 .wrapper {
+    background-color: #fff;
   box-sizing: content-box;
   height: 70px;
   padding: 90px 0;
@@ -187,7 +194,8 @@
   display: block;
   height: 100px;
   padding-left: 10px;
-  color: blue;
+  color: #e53170;
+  /* text-shadow: 0 0 0.1em #e53170; */
   animation: spin_words 27s infinite;
 }
 
@@ -315,6 +323,7 @@
 }
 
 .tab-btn {
+  font-weight: 700;
   padding: 1rem 0;
   border: none;
   text-transform: capitalize;
@@ -327,14 +336,23 @@
 }
 
 .tab-btn:hover:not(.active) {
-  background: #ab55e9;
-  color: #eeb854;
+  background: #000323;
+  color: #ffd17d;
 }
 
 .about-content {
   border-bottom-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
   padding: 2rem 1.5rem;
+}
+
+.content h4 {
+    color: #ffd17d;
+}
+
+.content p {
+    color: #fff;
+    text-align: left;
 }
 
 /* hide content */
@@ -345,7 +363,6 @@
 .tab-btn.active {
   background: #000323;
   color: #ffd17d;
-  font-weight: 500;
 }
 
 .content.active {
