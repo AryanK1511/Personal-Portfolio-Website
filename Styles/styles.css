@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
 
 /* General Styles */
 * { z-index: 2; }
@@ -91,15 +91,14 @@ body {
 .main-heading {
   z-index: 4;
   padding-top: 150px;
-  /* font-family: "Rubik Puddles", cursive; */
-  font-family: 'Rampart One', cursive;
+  font-family: "Rubik Puddles", cursive;
   font-weight: 900;
   font-size: 9rem;
   margin-bottom: 35px;
 }
 
 .main-heading span {
-  /* padding: 10px; */
+  padding: 10px;
 }
 
 .yellow-font {
