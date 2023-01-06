@@ -379,6 +379,7 @@ body {
 /* ========== Projects Page ========== */
 .projects {
     background-color: #000323;
+    padding-bottom: 100px;
 }
 
 .projects-heading {
