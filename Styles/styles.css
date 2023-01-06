@@ -491,9 +491,21 @@ h1 {
 label {
     display: block;
     margin: 20px 0;
-    color: #ab55e9;
-    font-size: 2rem;
+    color: #eeb854;
+    font-size: 1.8rem;
     font-weight: 500;
+}
+
+input {
+    border-radius: 8px;
+    border: 4px solid black;
+    font-weight: 700;
+}
+
+textarea {
+    border-radius: 8px;
+    border: 4px solid black;
+    font-weight: 700;
 }
 
 input, textarea {
@@ -501,7 +513,6 @@ input, textarea {
     padding: 10px;
     box-sizing: border-box;
     outline: none;
-    border-bottom: 1px solid #D3D3D3;
 }
 
 input[type="text"]:focus, textarea:focus {
@@ -521,14 +532,25 @@ center {
 }
 
 input[type="submit"] {
-    margin-top: 30px;
-    width: 90%;
-    max-width: 200px;
-    background: linear-gradient(to right, rgb(255, 0, 106), rgb(255, 67, 61));
-    color: white;
-    font-size: 17px;
-    cursor: pointer;
-    border-radius: 3px;
+    padding: 20px 40px;
+    margin: 40px 0;
+    border: 4px solid #ab55e9;
+    border-radius: 8px;
+    background: transparent;
+    transition: 1s;
+    margin-bottom: 4rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ff8906;
+    transition: 1s;
+    box-shadow: 0 0 0.9em #ab55e9;
+}
+
+input[type="submit"]:hover {
+    background-color: #ab55e9;
+    border-color: #ab55e9;
+    box-shadow: 0 0 0.9em #ab55e9;
+    color: #fff;
 }
 
 .error {
