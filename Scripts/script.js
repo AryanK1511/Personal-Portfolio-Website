@@ -60,7 +60,7 @@ about.addEventListener("click", function (e) {
 projectsDisplay.innerHTML = "";
 projects.forEach((project) => {
     projectsDisplay.innerHTML += `<div class="col-lg-6 col-xl-4 my-4">
-        <div class="card h-100 mx-3">
+        <div class="card h-100 mx-3" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
             <img class="card-img-top mx-auto" src="${project.imgSrc}" alt="Project Image">
             <div class="card-body">
                 <h5 class="card-title">${project.title}</h5>
