@@ -150,7 +150,7 @@
 
 /* ========== ABOUT PAGE ========== */
 .about-page {
-  background-color: #fff;
+  background-color: #000323;
 }
 
 .about-page {
@@ -160,9 +160,13 @@
 .about-heading {
   text-align: center;
   font-size: 5rem;
-  padding: 90px 0 60px;
+  padding: 150px 0 40px;
   font-weight: 900;
   font-family: "Righteous", cursive;
+}
+
+.about-description {
+    padding: 0 0 40px;
 }
 
 #A {
@@ -273,7 +277,6 @@
   }
 }
 
-/* =========== About Page ========== */
 .about-img {
   margin-bottom: 2rem;
 }
@@ -302,12 +305,15 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+
 .tab-btn:nth-child(1) {
   border-top-left-radius: 0.5rem;
 }
+
 .tab-btn:nth-child(3) {
   border-top-right-radius: 0.5rem;
 }
+
 .tab-btn {
   padding: 1rem 0;
   border: none;
@@ -319,22 +325,29 @@
   transition: all 0.3s linear;
   letter-spacing: 0.25rem;
 }
+
 .tab-btn:hover:not(.active) {
   background: #ab55e9;
   color: #eeb854;
 }
+
 .about-content {
   border-bottom-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
   padding: 2rem 1.5rem;
 }
+
 /* hide content */
 .content {
   display: none;
 }
+
 .tab-btn.active {
-  background: #adedea;
+  background: #000323;
+  color: #ffd17d;
+  font-weight: 500;
 }
+
 .content.active {
   display: block;
 }
