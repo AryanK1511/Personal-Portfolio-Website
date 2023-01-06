@@ -59,7 +59,6 @@ about.addEventListener("click", function (e) {
 // ========== Rendering projects dynamically ==========
 projectsDisplay.innerHTML = "";
 projects.forEach((project) => {
-    console.log(project);
     projectsDisplay.innerHTML += `<div class="col-lg-6 col-xl-4 my-4">
         <div class="card h-100 mx-3">
             <img class="card-img-top mx-auto" src="${project.imgSrc}" alt="Project Image">
