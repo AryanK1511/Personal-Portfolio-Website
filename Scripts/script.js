@@ -48,7 +48,7 @@ let projects = [
     {
         id: 6,
         title: "Blog Web App",
-        subtitle: "In this Application, users have the ability to create and account and publish blogs",
+        subtitle: "Node.js application that implements a blogging platform with features like adding, updating, and deleting blog posts, and also implementing an authentication system with user registration and login using client-sessions middleware.",
         imgSrc: "./Assets/Images/Blog-Logo.jpeg",
         repoLink: "https://github.com/AryanK1511/WEB322-App",
         techStack: ["CSS, JavaScript, Node.js, Express.js, MongoDB, PostgreSQL, Handlebars.js"]
