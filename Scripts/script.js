@@ -113,7 +113,7 @@ projects.forEach((project) => {
             <div class="card-body">
                 <h5 class="card-title">${project.title}</h5>
                 <h6 class="card-subtitle mb-2">${project.subtitle}</h6>
-                <h6 class="card-subtitle tech-stack mb-2">Tech Stack and Concepts Used: </h6><h6 class="card-subtitle tech-stack-content mb-2">${project.techStack.map(x => `<span>${x}</span>`).join(", ")}</h6>
+                <h6 class="card-subtitle tech-stack mb-2">Tech Stack: </h6><h6 class="card-subtitle tech-stack-content mb-2">${project.techStack.map(x => `<span>${x}</span>`).join(", ")}</h6>
                 <p class="card-text text-muted"><a href="${project.repoLink}" target="_blank"><i class="uil uil-github"></i></a></p>
             </div>
         </div>
