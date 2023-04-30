@@ -457,6 +457,29 @@ body {
     font-size: 3rem;
 }
 
+.tech-stack {
+  color: #BCF482;
+}
+
+.tech-stack-content {
+  color: #FFA487;
+}
+
+.content h3 {
+  color: white;
+  text-align: left;
+}
+
+.education-awards {
+  text-align: left;
+  color: #fff;
+}
+
+.semester {
+  font-weight: bold;
+  color: #FF835C;
+}
+
 /* ========== Contact Me ========== */
 .contact-heading {
     text-align: center;

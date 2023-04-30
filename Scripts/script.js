@@ -3,25 +3,73 @@ let projects = [
     {
         id: 1,
         title: "BookWorm Web App",
-        subtitle: "CRUD web application built using Node.js, Express.js, EJS and mongoDB.",
+        subtitle: "BookWorm is a CRUD web application that is created with the aim of developing a reading habit in people. This application helps you to search any book that you want and add it to your reading list. Implemented OAuth using local and google auth strategies by incorporating passport.js in the project. Hosted Website using Heroku",
         imgSrc: "./Assets/Images/BookWorm-Logo.png",
-        repoLink: "https://github.com/AryanK1511/Bookworm-Web-App"
+        repoLink: "https://github.com/AryanK1511/Bookworm-Web-App",
+        techStack: ["EJS", "CSS3", "JavaScript", "Express.js", "Node.js", "MongoDB"]
     },
 
     {
         id: 2,
-        title: "Sort Visualizer",
-        subtitle: "Visualizer which allows user to observe the working of Bubble Sort, Insertion Sort and Selection Sort.",
-        imgSrc: "./Assets/Images/Sort-Logo.png",
-        repoLink: "https://github.com/AryanK1511/Sort-Visualizer"
+        title: "Seneca Library Application",
+        subtitle: "When Books and other publications arrive in the Seneca library, they should be tagged and put on shelves, so they are easily retrievable to be lent out to those who need them. I designed an application that receives the publications and stores them into the system with the information needed for their retrieval. Later, each publication can be lent out to members of the library with a due date for return.",
+        imgSrc: "./Assets/Images/Library-Logo.jpeg",
+        repoLink: "https://github.com/AryanK1511/Seneca-college-OOP244-Workshops-and-Labs/tree/main/Final_Project",
+        techStack: ["Object Oriented Programming using C++"]
     },
 
     {
         id: 3,
+        title: "Assembly Line Simulation",
+        subtitle: "The assembly line simulation has workstations holding specific stock items. A line manager moves customer orders along the line filling the orders at each station. If a station is out of stock, the order cannot be filled. The simulator displays the completed and incomplete orders at the end.",
+        imgSrc: "./Assets/Images/AssemblyLine-Logo.jpeg",
+        repoLink: "https://github.com/AryanK1511/Seneca-college-OOP345-Workshops-and-Labs/tree/main/Final_Project",
+        techStack: ["Object Oriented Programming using C++"]
+    },
+
+    {
+        id: 4,
+        title: "Online Banking Application Database",
+        subtitle: "A project consisting of an Online Banking System Database that uses C++ to create a menu application that allows the user to call several PL/SQL procedures to generate business reports as per their choice.",
+        imgSrc: "./Assets/Images/OnlineBanking-Logo.jpeg",
+        repoLink: "https://github.com/AryanK1511/DBS311-Final-Project",
+        techStack: ["Oracle SQL", "PL / SQL", "C++"]
+    },
+
+    {
+        id: 5,
+        title: "Discord Database Clone",
+        subtitle: "In this project, I have designed and created a database for ‘Discord’ in order to learn database design, development and implementation.",
+        imgSrc: "./Assets/Images/Database-Logo.jpeg",
+        repoLink: "https://github.com/AryanK1511/DBS211-Final-Project",
+        techStack: ["Oracle SQL"]
+    },
+
+    {
+        id: 6,
+        title: "Blog Web App",
+        subtitle: "In this Application, users have the ability to create and account and publish blogs",
+        imgSrc: "./Assets/Images/Blog-Logo.jpeg",
+        repoLink: "https://github.com/AryanK1511/WEB322-App",
+        techStack: ["CSS, JavaScript, Node.js, Express.js, MongoDB, PostgreSQL, Handlebars.js"]
+    },
+
+    {
+        id: 7,
+        title: "Sort Visualizer",
+        subtitle: "Visualizer which allows user to observe the working of Bubble Sort, Insertion Sort and Selection Sort.",
+        imgSrc: "./Assets/Images/Sort-Logo.png",
+        repoLink: "https://github.com/AryanK1511/Sort-Visualizer",
+        techStack: ["HTML5", "CSS3", "JavaScript (ES6)"]
+    },
+
+    {
+        id: 8,
         title: "Portfolio Website",
         subtitle: "My very own portfolio website which contains my personal and contact information.",
         imgSrc: "./Assets/Images/Portfolio-Logo.png",
-        repoLink: "https://github.com/AryanK1511/Personal-Portfolio-Website"
+        repoLink: "https://github.com/AryanK1511/Personal-Portfolio-Website",
+        techStack: ["HTML5", "CSS3", "JavaScript (ES6)"]
     }
 ]
 
@@ -65,6 +113,7 @@ projects.forEach((project) => {
             <div class="card-body">
                 <h5 class="card-title">${project.title}</h5>
                 <h6 class="card-subtitle mb-2">${project.subtitle}</h6>
+                <h6 class="card-subtitle tech-stack mb-2">Tech Stack and Concepts Used: </h6><h6 class="card-subtitle tech-stack-content mb-2">${project.techStack.map(x => `<span>${x}</span>`).join(", ")}</h6>
                 <p class="card-text text-muted"><a href="${project.repoLink}" target="_blank"><i class="uil uil-github"></i></a></p>
             </div>
         </div>
